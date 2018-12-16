@@ -11,7 +11,7 @@
  BZ3=' Waschkeller '
  BZ4=' Biltong-Box '
 
- echo $X  $BZ1  $S1  $BZ2  $S2  $BZ3  $S3  $BZ4  $S4;
+ echo $X  $BZ1  $S1  $BZ2  $S2  $BZ3  $S3  $BZ4  $S4 >>/home/pi/Umgebungsdaten/Verlauf.csv &
 
 
 
